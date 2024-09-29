@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        header {
+            margin-left: 35px;
+            margin-right: 35px;
+            height: 8vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 40px;
+        }
+
+        .search {
+            width: 20px;
+        }
+
+        .cart {
+            width: 25px;
+        }
+
+        .profile {
+            width: 25px;
+        }
+
+        .left {
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .right {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .store {
+            color: orange;
+        }
+
+        .main {
+            background-color: rgb(243, 238, 238);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top {
+            width: 70%;
+            height: 35vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+        .items {
+            height: 230px;
+            width: 250px;
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 2%;
+            display: flex;
+        }
+
+        .center {
+            height: 22vh;
+            width: 70%;
+        }
+
+        .bottom {
+            height: 35vh;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .earphones {
+            width: 100px;
+        }
+
+        .items {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text {
+            margin: 0px 10px;
+        }
+
+        .sign {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+
+        .fa-solid {
+            padding: 2%;
+        }
+
+        #x1 {
+            width: 65px;
+            text-align: center;
+            border: 2px solid orange;
+            border-radius: 5px;
+            background-color: rgb(245, 234, 221);
+            color: orange;
+        }
+
+        #x2 {
+            width: 70px;
+            height: 20px;
+            margin-top: 50px;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <div class="logo"><img
+                    src="https://www.freelogovectors.net/wp-content/uploads/2021/04/xiaomi-logo-freelogovectors.net_.png"
+                    alt="logo"></div>
+
+            <div class="store">
+                <p>Store</p>
+            </div>
+            <div class="phone">
+                <p>Phone</p>
+            </div>
+            <div class="tv">
+                <p>TV & Smart Home</p>
+            </div>
+            <div class="tablet">
+                <p>Tablet</p>
+            </div>
+            <div class="lifestyle">
+                <p>LifeStyle</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="discover">
+                <p>Discover</p>
+            </div>
+            <div class="support">
+                <p>Support</p>
+            </div>
+            <div class="search"><img
+                    src="https://tse1.mm.bing.net/th/id/OIP.zwc9iQ70YiSyFbU5sp135AHaHa?rs=1&pid=ImgDetMain"
+                    alt="search"></div>
+            <div class="cart"><img
+                    src="https://tse1.mm.bing.net/th/id/OIP.qpklrXXr1jSlYjBOrDNxLQHaGE?rs=1&pid=ImgDetMain" alt="cart">
+            </div>
+            <div class="profile"><img
+                    src="https://tse4.mm.bing.net/th/id/OIP.H9ZSc7wY4prwAv-tT9pVzwAAAA?rs=1&pid=ImgDetMain"
+                    alt="profile"></div>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <div class="main">
+
+        <div class="top">
+            <div class="items">
+                <div class="text">
+                    <p><b>Redmi Earphones</b></p>
+                    <p id="x1">25% off</p>
+                </div>
+
+                <div class="sign">
+                    <p id="x2"><i class="fa-solid fa-indian-rupee-sign"></i><b>449</b></p>
+                    <div class="earphones"><img
+                            src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1598953987.67371928.png?width=420&height=420">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="text">
+                    <p><b>Mi Dual Driver In-ear Earphones</b></p>
+                    <p id="x1">20% off</p>
+                </div>
+
+                <div class="sign">
+                    <p id="x2"><i class="fa-solid fa-indian-rupee-sign"></i><b>799</b></p>
+                    <div class="earphones"><img
+                            src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1617825722.98226831!500x500.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="text">
+                    <p><b>Redmi Sonic Bass Wireless Earphones 2</b></p>
+                    <p id="x1">56% off</p>
+                </div>
+
+                <div class="sign">
+                    <p id="x2"><i class="fa-solid fa-indian-rupee-sign"></i><b>1,299</b></p>
+                    <div class="earphones"><img src="https://www.addmecart.com/wp-content/uploads/2023/08/123-21.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="text">
+                    <p><b>Mi Portable Bluetooth Speaker (16W)</b></p>
+                    <p id="x1">28% off</p>
+                </div>
+
+                <div class="sign">
+                    <p id="x2"><i class="fa-solid fa-indian-rupee-sign"></i><b>2,499</b></p>
+                    <div class="earphones"><img
+                            src="https://tse2.mm.bing.net/th/id/OIP._kSPm0araLi1dFpjpqZg6AHaHa?rs=1&pid=ImgDetMain">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="center">
+            <img
+                src="https://i03.appmifile.com/667_operator_in/16/09/2024/3dc7a525e383e22e78361ca189422c8d.jpg?thumb=1&w=1680&q=85">
+        </div>
+
+
+        <div class="bottom">
+            <div class="items">
+                <div class="text">
+                    <p><b>Xiaomi 120W HyperChange Adapter...</b></p>
+                    <p id="x1">50% off</p>
+                </div>
+
+                <div class="sign">
+                    <p id="x2"><i class="fa-solid fa-indian-rupee-sign"></i><b>2,999</b></p>
+                    <div class="earphones"><img
+                            src="https://tse1.mm.bing.net/th/id/OIP.Mv3eTJPsP4AXW4jIo_GCqwHaHa?rs=1&pid=ImgDetMain">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="text">
+                    <p><b>Mi 2A Fast Charger with Cable</b></p>
+                    <p id="x1">25% off</p>
+                </div>
+
+                <div class="sign">
+                    <p id="x2"><i class="fa-solid fa-indian-rupee-sign"></i><b>449</b></p>
+                    <div class="earphones"><img
+                            src="https://tse3.mm.bing.net/th/id/OIP.JslOjQoKnOMSh63ma_DDyQHaHa?rs=1&pid=ImgDetMain">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="text">
+                    <p><b>Xiaomi SonicCharge 2.0 Cable</b></p>
+                    <p id="x1">64% off</p>
+                </div>
+
+                <div class="sign">
+                    <p id="x2"><i class="fa-solid fa-indian-rupee-sign"></i><b>249</b></p>
+                    <div class="earphones"><img
+                            src="https://www.gizmochina.com/wp-content/uploads/2021/10/Xiaomi-SonicCharge-2.0-Cable-01-1920x1080.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="items">
+                <div class="text">
+                    <p><b>Mi 18W Dual Port Charger + Mi USB Cable 120cm...</b></p>
+                    <p id="x1">35% off</p>
+                </div>
+
+                <div class="sign">
+                    <p id="x2"><i class="fa-solid fa-indian-rupee-sign"></i><b>899</b></p>
+                    <div class="earphones"><img
+                            src="https://i03.appmifile.com/763_item_in/16/05/2023/869a64e04768ba2ca37109040f8757d6.jpg?width=400&height=400">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
